@@ -1,2 +1,1 @@
-# GST
-Gadator Selenium Tests
+GST
