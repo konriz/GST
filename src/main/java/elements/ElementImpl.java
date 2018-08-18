@@ -1,8 +1,6 @@
 package elements;
 
 import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.internal.Coordinates;
-import org.openqa.selenium.interactions.internal.Locatable;
 
 import java.util.List;
 
@@ -85,10 +83,6 @@ public abstract class ElementImpl implements Element {
     //    TODO beta function in main library
     public <X> X getScreenshotAs(OutputType<X> outputType) throws WebDriverException {
         return null;
-    }
-
-    public Coordinates getCoordinates() {
-        return ((Locatable) element).getCoordinates();
     }
 
     public WebElement getWrappedElement() {

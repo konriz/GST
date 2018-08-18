@@ -19,7 +19,8 @@ public class Driver {
     }
 
     private static void instantiateDriver() {
-        System.setProperty("webdriver.gecko.driver", "I:\\gecko\\geckodriver.exe");
+//        System.setProperty("webdriver.gecko.driver", "I:\\gecko\\geckodriver.exe");
+
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
     }
